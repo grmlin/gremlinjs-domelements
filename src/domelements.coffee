@@ -12,5 +12,5 @@ class DomElements
   @bind: (gremlinInstance) ->
     addElements.call gremlinInstance
 
-GremlinJS.registerExtension DomElements
+Gremlin.registerExtension DomElements
  

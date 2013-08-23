@@ -38,6 +38,6 @@
 
   })();
 
-  GremlinJS.registerExtension(DomElements);
+  Gremlin.registerExtension(DomElements);
 
 }).call(this);
