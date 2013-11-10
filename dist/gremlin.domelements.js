@@ -5,8 +5,8 @@
 
   addElements = function() {
     var propertyName, selector, _ref, _results;
-    if (typeof this.klass.elements === 'object') {
-      _ref = this.klass.elements;
+    if (typeof this.constructor.elements === 'object') {
+      _ref = this.constructor.elements;
       _results = [];
       for (selector in _ref) {
         if (!__hasProp.call(_ref, selector)) continue;
